@@ -1,0 +1,17 @@
+## Lista de Municípios de Roraima. 15 Municípios.
+## Original encoding: UTF-8
+RR|Alto Alegre
+RR|Amajari
+RR|Boa Vista|capital
+RR|Bonfim
+RR|Cantá
+RR|Caracaraí
+RR|Caroebe
+RR|Iracema
+RR|Mucajaí
+RR|Normandia
+RR|Pacaraima
+RR|Rorainópolis
+RR|São João da Baliza
+RR|São Luís
+RR|Uiramutã

@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+    <tlib-version>1.0</tlib-version>
+    <short-name>commons-tags</short-name>
+    <uri>http://code.google.com/msf/commons-tags</uri>
+
+    <tag>
+        <name>url</name>
+        <tag-class>br.msf.commons.tags.core.UrlTag</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
+
+    <tag>
+        <name>icon</name>
+        <tag-class>br.msf.commons.tags.core.IconTag</tag-class>
+        <attribute>
+            <name>iconSize</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Integer</type>
+        </attribute>
+        <body-content>scriptless</body-content>
+    </tag>
+
+    <tag>
+        <name>idGenerator</name>
+        <tag-class>br.msf.commons.tags.core.IdGeneratorTag</tag-class>
+        <attribute>
+            <name>defaultValue</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>prefix</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>sufix</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>formatPeriod</name>
+        <tag-class>br.msf.commons.tags.format.FormatPeriodTag</tag-class>
+        <attribute>
+            <name>value</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>br.msf.commons.lang.Period</type>
+        </attribute>
+        <attribute>
+            <name>var</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>scope</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>pattern</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>isPatternKey</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <attribute>
+            <name>separator</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>formatDate</name>
+        <tag-class>br.msf.commons.tags.format.FormatDateTag</tag-class>
+        <attribute>
+            <name>value</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Object</type>
+        </attribute>
+        <attribute>
+            <name>var</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>scope</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>pattern</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>isPatternKey</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>message</name>
+        <tag-class>br.msf.commons.tags.message.MessageTag</tag-class>
+        <attribute>
+            <name>key</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>defaultValue</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>var</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>scope</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>label</name>
+        <tag-class>br.msf.commons.tags.label.LabelTag</tag-class>
+        <attribute>
+            <name>label</name>
+            <description>The label text itself, or a property key to its value. This attribute is mandatory and cannot be blank.</description>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>isLabelKey</name>
+            <description>Indicates if the given label is a property key to the actual value. Defaults to "false", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <attribute>
+            <name>for</name>
+            <description>The control id this label reffers to. This attribute is optional.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>cssClass</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>isMandatory</name>
+            <description>Indicates if the given label relates to a mandatory field. Defaults to "false", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <attribute>
+            <name>colonAfter</name>
+            <description>Indicates if a colon must be put after the label. Defaults to "true", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <attribute>
+            <name>breakAfter</name>
+            <description>Indicates if a break must be put after the label. Defaults to "true", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <body-content>scriptless</body-content>
+    </tag>
+
+    <tag>
+        <name>menu</name>
+        <tag-class>br.msf.commons.tags.menu.MenuTag</tag-class>
+        <attribute>
+            <name>id</name>
+            <description>The menu's id.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>itensPerRow</name>
+            <description>Max itens per row. A new row will be added if surpassed. Defaults to 6.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Integer</type>
+        </attribute>
+        <attribute>
+            <name>disabled</name>
+            <description>Disables all menuitems. It DOESN'T disables MenuCustomCells! Defaults to "false".</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <attribute>
+            <name>visible</name>
+            <description>Indicates if this menu must be rendered. Defaults to "true", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <attribute>
+            <name>defaultIsLabelKey</name>
+            <description>Sets a default value for the menuiten's 'isLabelKey' attribute, for those items that doesnt defines it.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <attribute>
+            <name>defaultIconSize</name>
+            <description>Sets a default value for the menuiten's 'iconSize' attribute, for those items that doesnt defines it.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Integer</type>
+        </attribute>
+        <attribute>
+            <name>defaultMiClass</name>
+            <description>Sets a default value for the menuiten's 'miClass' attribute, for those items that doesnt defines it.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>defaultMiDisabledClass</name>
+            <description>Sets a default value for the menuiten's 'miDisabledClass' attribute, for those items that doesnt defines it.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>defaultLabelClass</name>
+            <description>Sets a default value for the menuiten's 'labelClass' attribute, for those items that doesnt defines it.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>defaultLabelDisabledClass</name>
+            <description>Sets a default value for the menuiten's 'labelDisabledClass' attribute, for those items that doesnt defines it.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>defaultIconClass</name>
+            <description>Sets a default value for the menuiten's 'iconClass' attribute, for those items that doesnt defines it.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>defaultIconDisabledClass</name>
+            <description>Sets a default value for the menuiten's 'iconDisabledClass' attribute, for those items that doesnt defines it.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <body-content>scriptless</body-content>
+    </tag>
+
+    <tag>
+        <name>menuItem</name>
+        <tag-class>br.msf.commons.tags.menu.MenuItemTag</tag-class>
+        <attribute>
+            <name>id</name>
+            <description>The menuitem's id. This attribute is optional.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>label</name>
+            <description>The label text itself, or a property key to its value. This attribute is mandatory and cannot be blank.</description>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>isLabelKey</name>
+            <description>Indicates if the given label is a property key to the actual value. Defaults to "false", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <attribute>
+            <name>disabled</name>
+            <description>Indicates if this menu-item is inactive. Defaults to "false", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <attribute>
+            <name>visible</name>
+            <description>Indicates if this menu-item must be rendered. Defaults to "true", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <attribute>
+            <name>miClass</name>
+            <description>This attribute is optional. Defaults to "mi", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>miDisabledClass</name>
+            <description>This attribute is optional. Defaults to "miDisabled", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>iconClass</name>
+            <description>This attribute is optional. Defaults to "miIcon", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>iconDisabledClass</name>
+            <description>This attribute is optional. Defaults to "miIconDisabled", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>labelClass</name>
+            <description>This attribute is optional. Defaults to "miLabel", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>labelDisabledClass</name>
+            <description>This attribute is optional. Defaults to "miLabelDisabled", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <body-content>scriptless</body-content>
+    </tag>
+
+    <tag>
+        <name>menuCustomCell</name>
+        <tag-class>br.msf.commons.tags.menu.MenuCustomCellTag</tag-class>
+        <attribute>
+            <name>visible</name>
+            <description>Indicates if this cell must be rendered. Defaults to "true", if not defined.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <body-content>scriptless</body-content>
+    </tag>
+
+    <tag>
+        <name>pagetitle</name>
+        <tag-class>br.msf.commons.tags.pagetitle.PageTitleTag</tag-class>
+        <attribute>
+            <name>id</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>label</name>
+            <description>The label text itself, or a property key to its value. This attribute is mandatory and cannot be blank.</description>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>isLabelKey</name>
+            <description>Sets a default value for the menuiten's 'isLabelKey' attribute, for those items that doesnt defines it.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <attribute>
+            <name>breakAfterBreadcrumb</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <attribute>
+            <name>breadcrumbSeparator</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>titleLabelClass</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>titleLabelStyle</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>defaultIsLabelKey</name>
+            <description>Sets a default value for the menuiten's 'isLabelKey' attribute, for those items that doesnt defines it.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <body-content>scriptless</body-content>
+    </tag>
+    <tag>
+        <name>breadcrumb</name>
+        <tag-class>br.msf.commons.tags.pagetitle.BreadcrumbTag</tag-class>
+        <attribute>
+            <name>id</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>label</name>
+            <description>The label text itself, or a property key to its value. This attribute is mandatory and cannot be blank.</description>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>isLabelKey</name>
+            <description>Sets a default value for the menuiten's 'isLabelKey' attribute, for those items that doesnt defines it.</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+        <body-content>scriptless</body-content>
+    </tag>
+</taglib>
+

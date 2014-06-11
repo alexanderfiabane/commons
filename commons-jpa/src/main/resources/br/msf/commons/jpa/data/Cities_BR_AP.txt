@@ -1,0 +1,18 @@
+## Lista de Municípios do Amapá. 16 Municípios.
+## Original encoding: UTF-8
+Amapá
+Calçoene
+Cutias
+Ferreira Gomes
+Itaubal
+Laranjal do Jari
+Macapá|capital
+Mazagão
+Oiapoque
+Pedra Branca do Amapari
+Porto Grande
+Pracuúba
+Santana
+Serra do Navio
+Tartarugalzinho
+Vitória do Jari

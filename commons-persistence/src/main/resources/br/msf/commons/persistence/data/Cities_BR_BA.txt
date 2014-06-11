@@ -1,0 +1,417 @@
+## Lista de Municípios da Bahia. 417 Municípios.
+## Original encoding: UTF-8
+BH|Abaíra
+BH|Abaré
+BH|Acajutiba
+BH|Adustina
+BH|Aiquara
+BH|Alcobaça
+BH|Almadina
+BH|Amargosa
+BH|Amélia Rodrigues
+BH|América Dourada
+BH|Anagé
+BH|Andaraí
+BH|Andorinha
+BH|Angical
+BH|Anguera
+BH|Antas
+BH|Antônio Cardoso
+BH|Antônio Gonçalves
+BH|Aporá
+BH|Apuarema
+BH|Araçás
+BH|Aracatu
+BH|Araci
+BH|Aramari
+BH|Arataca
+BH|Aratuípe
+BH|Aurelino Leal
+BH|Barreiras
+BH|Bom Jesus da Lapa
+BH|Brumado
+BH|Baianópolis
+BH|Baixa Grande
+BH|Banzaê
+BH|Barra
+BH|Barra da Estiva
+BH|Barra do Choça
+BH|Barra do Mendes
+BH|Barra do Rocha
+BH|Barro Alto
+BH|Barro Preto
+BH|Barrocas
+BH|Belmonte
+BH|Belo Campo
+BH|Biritinga
+BH|Boa Nova
+BH|Boa Vista do Tupim
+BH|Bom Jesus da Serra
+BH|Boninal
+BH|Bonito
+BH|Boquira
+BH|Botuporã
+BH|Brejões
+BH|Brejolândia
+BH|Brotas de Macaúbas
+BH|Buerarema
+BH|Buritirama
+BH|Caculé
+BH|Camaçari
+BH|Candeias
+BH|Casa Nova
+BH|Caatiba
+BH|Cabaceiras do Paraguaçu
+BH|Cachoeira
+BH|Caém
+BH|Caetanos
+BH|Caetité
+BH|Cafarnaum
+BH|Cairu
+BH|Caldeirão Grande
+BH|Camacan
+BH|Camamu
+BH|Campo Alegre de Lourdes
+BH|Canápolis
+BH|Canarana
+BH|Canavieiras
+BH|Candeal
+BH|Candiba
+BH|Cândido Sales
+BH|Cansanção
+BH|Canudos
+BH|Capela do Alto Alegre
+BH|Capim Grosso
+BH|Caraíbas
+BH|Caravelas
+BH|Cardeal da Silva
+BH|Carinhanha
+BH|Castro Alves
+BH|Catolândia
+BH|Catu
+BH|Caturama
+BH|Central
+BH|Chorrochó
+BH|Cícero Dantas
+BH|Cipó
+BH|Coaraci
+BH|Cocos
+BH|Conceição da Feira
+BH|Conceição do Almeida
+BH|Conceição do Coité
+BH|Conceição do Jacuípe
+BH|Conde
+BH|Condeúba
+BH|Contendas do Sincorá
+BH|Coração de Maria
+BH|Cordeiros
+BH|Coribe
+BH|Coronel João Sá
+BH|Correntina
+BH|Cotegipe
+BH|Cravolândia
+BH|Crisópolis
+BH|Cristópolis
+BH|Cruz das Almas
+BH|Curaçá
+BH|Dias d'Ávila
+BH|Dário Meira
+BH|Dom Basílio
+BH|Dom Macedo Costa
+BH|Eunápolis
+BH|Elísio Medrado
+BH|Encruzilhada
+BH|Entre Rios
+BH|Érico Cardoso
+BH|Esplanada
+BH|Euclides da Cunha
+BH|Feira de Santana
+BH|Fátima
+BH|Feira da Mata
+BH|Filadélfia
+BH|Firmino Alves
+BH|Floresta Azul
+BH|Formosa do Rio Preto
+BH|Guanambi
+BH|Gandu
+BH|Gavião
+BH|Gentio do Ouro
+BH|Glória
+BH|Gongogi
+BH|Governador Mangabeira
+BH|Guajeru
+BH|Guaratinga
+BH|Heliópolis
+BH|Ilhéus
+BH|Irecê
+BH|Itabuna
+BH|Itacaré
+BH|Itapetinga
+BH|Itamaraju
+BH|Iaçu
+BH|Ibiassucê
+BH|Ibicaraí
+BH|Ibicoara
+BH|Ibicuí
+BH|Ibipeba
+BH|Ibipitanga
+BH|Ibiquera
+BH|Ibirapitanga
+BH|Ibirapuã
+BH|Ibirataia
+BH|Ibitiara
+BH|Ibititá
+BH|Ibotirama
+BH|Ichu
+BH|Igaporã
+BH|Igrapiúna
+BH|Iguaí
+BH|Inhambupe
+BH|Ipecaetá
+BH|Ipiaú
+BH|Ipirá
+BH|Ipupiara
+BH|Irajuba
+BH|Iramaia
+BH|Iraquara
+BH|Irará
+BH|Itabela
+BH|Itaberaba
+BH|Itaeté
+BH|Itagi
+BH|Itagibá
+BH|Itagimirim
+BH|Itaguaçu da Bahia
+BH|Itaju do Colônia
+BH|Itajuípe
+BH|Itamari
+BH|Itambé
+BH|Itanagra
+BH|Itanhém
+BH|Itaparica
+BH|Itapé
+BH|Itapebi
+BH|Itapicuru
+BH|Itapitanga
+BH|Itaquara
+BH|Itarantim
+BH|Itatim
+BH|Itiruçu
+BH|Itiúba
+BH|Itororó
+BH|Ituaçu
+BH|Ituberá
+BH|Iuiú
+BH|Jacobina
+BH|Jaguaquara
+BH|Jequié
+BH|Juazeiro
+BH|Jaborandi
+BH|Jacaraci
+BH|Jaguarari
+BH|Jaguaripe
+BH|Jandaíra
+BH|Jeremoabo
+BH|Jiquiriçá
+BH|Jitaúna
+BH|João Dourado
+BH|Jucuruçu
+BH|Jussara
+BH|Jussari
+BH|Jussiape
+BH|Lauro de Freitas
+BH|Lençóis
+BH|Lafaiete Coutinho
+BH|Lagoa Real
+BH|Laje
+BH|Lajedão
+BH|Lajedinho
+BH|Lajedo do Tabocal
+BH|Lamarão
+BH|Lapão
+BH|Licínio de Almeida
+BH|Livramento do Brumado
+BH|Livramento de Nossa Senhora
+BH|Luís Eduardo Magalhães
+BH|Macajuba
+BH|Macarani
+BH|Macaúbas
+BH|Macururé
+BH|Madre de Deus
+BH|Maetinga
+BH|Maiquinique
+BH|Mairi
+BH|Malhada
+BH|Malhada de Pedras
+BH|Manoel Vitorino
+BH|Mansidão
+BH|Maracás
+BH|Maragogipe
+BH|Maraú
+BH|Marcionílio Souza
+BH|Mascote
+BH|Mata de São João
+BH|Matina
+BH|Medeiros Neto
+BH|Miguel Calmon
+BH|Milagres
+BH|Mirangaba
+BH|Mirante
+BH|Monte Santo
+BH|Morpará
+BH|Morro do Chapéu
+BH|Mortugaba
+BH|Mucugê
+BH|Mucuri
+BH|Mulungu do Morro
+BH|Mundo Novo
+BH|Muniz Ferreira
+BH|Muquém de São Francisco
+BH|Muritiba
+BH|Mutuípe
+BH|Nazaré
+BH|Nilo Peçanha
+BH|Nordestina
+BH|Nova Canaã
+BH|Nova Fátima
+BH|Nova Ibiá
+BH|Nova Itarana
+BH|Nova Redenção
+BH|Nova Soure
+BH|Nova Viçosa
+BH|Novo Horizonte
+BH|Novo Triunfo
+BH|Ouriçangas
+BH|Olindina
+BH|Oliveira dos Brejinhos
+BH|Ourolândia
+BH|Paulo Afonso
+BH|Pojuca
+BH|Porto Seguro
+BH|Palmas de Monte Alto
+BH|Palmeiras
+BH|Paramirim
+BH|Paratinga
+BH|Paripiranga
+BH|Pau Brasil
+BH|Pé de Serra
+BH|Pedrão
+BH|Pedro Alexandre
+BH|Piatã
+BH|Pilão Arcado
+BH|Pindaí
+BH|Pindobaçu
+BH|Pintadas
+BH|Piraí do Norte
+BH|Piripá
+BH|Piritiba
+BH|Planaltino
+BH|Planalto
+BH|Poções
+BH|Ponto Novo
+BH|Potiraguá
+BH|Prado
+BH|Presidente Dutra
+BH|Presidente Jânio Quadros
+BH|Presidente Tancredo Neves
+BH|Quixabeira
+BH|Queimadas
+BH|Quijingue
+BH|Rafael Jambeiro
+BH|Remanso
+BH|Retirolândia
+BH|Riachão das Neves
+BH|Riachão do Jacuípe
+BH|Riacho de Santana
+BH|Ribeira do Amparo
+BH|Ribeira do Pombal
+BH|Ribeirão do Largo
+BH|Rio de Contas
+BH|Rio do Antônio
+BH|Rio do Pires
+BH|Rio Real
+BH|Rodelas
+BH|Ruy Barbosa
+BH|Salinas da Margarida
+BH|Salvador|capital
+BH|Santo Antônio de Jesus
+BH|Senhor do Bonfim
+BH|Serrinha
+BH|Simões Filho
+BH|Santa Bárbara
+BH|Santa Brígida
+BH|Santa Cruz Cabrália
+BH|Santa Cruz da Vitória
+BH|Santa Inês
+BH|Santa Luzia
+BH|Santa Maria da Vitória
+BH|Santa Rita de Cássia
+BH|Santa Teresinha
+BH|Santaluz
+BH|Santana
+BH|Santanópolis
+BH|Santo Amaro
+BH|Santo Estêvão
+BH|São Desidério
+BH|São Domingos
+BH|São Felipe
+BH|São Félix
+BH|São Félix do Coribe
+BH|São Francisco do Conde
+BH|São Gabriel
+BH|São Gonçalo dos Campos
+BH|São José da Vitória
+BH|São José do Jacuípe
+BH|São Miguel das Matas
+BH|São Sebastião do Passé
+BH|Sapeaçu
+BH|Sátiro Dias
+BH|Saubara
+BH|Saúde
+BH|Seabra
+BH|Sebastião Laranjeiras
+BH|Sento Sé
+BH|Serra do Ramalho
+BH|Serra Dourada
+BH|Serra Preta
+BH|Serrolândia
+BH|Sítio do Mato
+BH|Sítio do Quinto
+BH|Sobradinho
+BH|Souto Soares
+BH|Teixeira de Freitas
+BH|Tabocas do Brejo Velho
+BH|Tanhaçu
+BH|Tanque Novo
+BH|Tanquinho
+BH|Taperoá
+BH|Tapiramutá
+BH|Teodoro Sampaio
+BH|Teofilândia
+BH|Teolândia
+BH|Terra Nova
+BH|Tremedal
+BH|Tucano
+BH|Uauá
+BH|Ubaíra
+BH|Ubaitaba
+BH|Ubatã
+BH|Uibaí
+BH|Umburanas
+BH|Una
+BH|Urandi
+BH|Uruçuca
+BH|Utinga
+BH|Valença
+BH|Vitória da Conquista
+BH|Várzea Nova
+BH|Valente
+BH|Várzea da Roça
+BH|Várzea do Poço
+BH|Varzedo
+BH|Vera Cruz
+BH|Vereda
+BH|Wagner
+BH|Wanderley
+BH|Wenceslau Guimarães
+BH|Xique-Xique

@@ -1,0 +1,7 @@
+/target/
+/commons-core/target/
+/commons-swing/target/
+/commons-mocca/target/
+/commons-persistence/target/
+/commons-tags/target/
+/commons-jpa/target/

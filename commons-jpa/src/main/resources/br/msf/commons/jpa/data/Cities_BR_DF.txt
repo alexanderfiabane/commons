@@ -1,0 +1,3 @@
+## Lista de Municípios do Distrito Federal. 1 Município.
+## Original encoding: UTF-8
+Brasília|capital

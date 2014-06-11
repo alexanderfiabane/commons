@@ -1,0 +1,3 @@
+## Lista de Países.
+## Original encoding: UTF-8
+BR|Brasil

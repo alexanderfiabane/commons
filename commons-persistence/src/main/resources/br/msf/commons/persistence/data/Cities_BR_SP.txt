@@ -1,0 +1,647 @@
+## Lista de Municípios de São Paulo. 645 Municípios.
+## Original encoding: UTF-8 TODO ordenar
+SP|Andradina
+SP|Castilho
+SP|Guaraçaí
+SP|Ilha Solteira
+SP|Itapura
+SP|Mirandópolis
+SP|Murutinga do Sul
+SP|Nova Independência
+SP|Pereira Barreto
+SP|Sud Mennucci
+SP|Suzanápolis
+SP|Araçatuba
+SP|Bento de Abreu
+SP|Guararapes
+SP|Lavínia
+SP|Rubiácea
+SP|Santo Antônio do Aracanguá
+SP|Valparaíso
+SP|Alto Alegre
+SP|Avanhandava
+SP|Barbosa
+SP|Bilac
+SP|Birigui
+SP|Braúna
+SP|Brejo Alegre
+SP|Buritama
+SP|Clementina
+SP|Coroados
+SP|Gabriel Monteiro
+SP|Glicério
+SP|Lourdes
+SP|Luiziânia
+SP|Penápolis
+SP|Piacatu
+SP|Santópolis do Aguapeí
+SP|Turiúba
+SP|Américo Brasiliense
+SP|Araraquara
+SP|Boa Esperança do Sul
+SP|Borborema
+SP|Dobrada
+SP|Gavião Peixoto
+SP|Ibitinga
+SP|Itápolis
+SP|Matão
+SP|Motuca
+SP|Nova Europa
+SP|Rincão
+SP|Santa Lúcia
+SP|Tabatinga
+SP|Trabiju
+SP|Analândia
+SP|Descalvado
+SP|Dourado
+SP|Ibaté
+SP|Ribeirão Bonito
+SP|São Carlos
+SP|Assis
+SP|Borá
+SP|Campos Novos Paulista
+SP|Cândido Mota
+SP|Cruzália
+SP|Florínea
+SP|Ibirarema
+SP|Iepê
+SP|Lutécia
+SP|Maracaí
+SP|Nantes
+SP|Palmital
+SP|Paraguaçu Paulista
+SP|Pedrinhas Paulista
+SP|Platina
+SP|Quatá
+SP|Tarumã
+SP|Bernardino de Campos
+SP|Canitar
+SP|Chavantes
+SP|Espírito Santo do Turvo
+SP|Fartura
+SP|Ipaussu
+SP|Manduri
+SP|Óleo
+SP|Ourinhos
+SP|Ribeirão do Sul
+SP|Piraju
+SP|Salto Grande
+SP|Santa Cruz do Rio Pardo
+SP|São Pedro do Turvo
+SP|Sarutaiá
+SP|Taguaí
+SP|Tejupá
+SP|Timburi
+SP|Águas de Santa Bárbara
+SP|Arandu
+SP|Avaré
+SP|Cerqueira César
+SP|Iaras
+SP|Itaí
+SP|Itatinga
+SP|Paranapanema
+SP|Agudos
+SP|Arealva
+SP|Areiópolis
+SP|Avaí
+SP|Balbinos
+SP|Bauru
+SP|Borebi
+SP|Cabrália Paulista
+SP|Duartina
+SP|Guarantã
+SP|Iacanga
+SP|Lençóis Paulista
+SP|Lucianópolis
+SP|Paulistânia
+SP|Pirajuí
+SP|Piratininga
+SP|Pongaí
+SP|Presidente Alves
+SP|Reginópolis
+SP|Ubirajara
+SP|Uru
+SP|Anhembi
+SP|Bofete
+SP|Botucatu
+SP|Conchas
+SP|Pardinho
+SP|Pratânia
+SP|São Manuel
+SP|Bariri
+SP|Barra Bonita
+SP|Bocaina
+SP|Boracéia
+SP|Dois Córregos
+SP|Igaraçu do Tietê
+SP|Itaju
+SP|Itapuí
+SP|Jaú
+SP|Macatuba
+SP|Mineiros do Tietê
+SP|Pederneiras
+SP|Cafelândia
+SP|Getulina
+SP|Guaiçara
+SP|Guaimbê
+SP|Júlio Mesquita
+SP|Lins
+SP|Promissão
+SP|Sabino
+SP|Águas de Lindóia
+SP|Amparo
+SP|Lindóia
+SP|Monte Alegre do Sul
+SP|Pedra Bela
+SP|Pinhalzinho
+SP|Serra Negra
+SP|Socorro
+SP|Americana
+SP|Campinas
+SP|Cosmópolis
+SP|Elias Fausto
+SP|Holambra
+SP|Hortolândia
+SP|Indaiatuba
+SP|Jaguariúna
+SP|Monte Mor
+SP|Nova Odessa
+SP|Paulínia
+SP|Pedreira
+SP|Santa Bárbara d'Oeste
+SP|Sumaré
+SP|Valinhos
+SP|Vinhedo
+SP|Artur Nogueira
+SP|Engenheiro Coelho
+SP|Estiva Gerbi
+SP|Itapira
+SP|Mogi Guaçu
+SP|Mogi Mirim
+SP|Santo Antônio de Posse
+SP|Aguaí
+SP|Pirassununga
+SP|Porto Ferreira
+SP|Santa Cruz das Palmeiras
+SP|Águas da Prata
+SP|Caconde
+SP|Casa Branca
+SP|Divinolândia
+SP|Espírito Santo do Pinhal
+SP|Itobi
+SP|Mococa
+SP|Santo Antônio do Jardim
+SP|São João da Boa Vista
+SP|São José do Rio Pardo
+SP|São Sebastião da Grama
+SP|Tambaú
+SP|Tapiratiba
+SP|Vargem Grande do Sul
+SP|Apiaí
+SP|Barra do Chapéu
+SP|Capão Bonito
+SP|Guapiara
+SP|Iporanga
+SP|Itaóca
+SP|Itapirapuã Paulista
+SP|Ribeira
+SP|Ribeirão Branco
+SP|Ribeirão Grande
+SP|Alambari
+SP|Angatuba
+SP|Campina do Monte Alegre
+SP|Guareí
+SP|Itapetininga
+SP|Barão de Antonina
+SP|Bom Sucesso de Itararé
+SP|Buri
+SP|Coronel Macedo
+SP|Itaberá
+SP|Itapeva
+SP|Itaporanga
+SP|Itararé
+SP|Nova Campina
+SP|Riversul
+SP|Taquarituba
+SP|Taquarivaí
+SP|Boituva
+SP|Cerquilho
+SP|Cesário Lange
+SP|Laranjal Paulista
+SP|Pereiras
+SP|Porangaba
+SP|Quadra
+SP|Tatuí
+SP|Torre de Pedra
+SP|Itanhaém
+SP|Itariri
+SP|Mongaguá
+SP|Pedro de Toledo
+SP|Peruíbe
+SP|Barra do Turvo
+SP|Cajati
+SP|Cananéia
+SP|Eldorado
+SP|Iguape
+SP|Ilha Comprida
+SP|Jacupiranga
+SP|Juquiá
+SP|Miracatu
+SP|Pariquera-Açu
+SP|Registro
+SP|Sete Barras
+SP|Atibaia
+SP|Bom Jesus dos Perdões
+SP|Bragança Paulista
+SP|Itatiba
+SP|Jarinu
+SP|Joanópolis
+SP|Morungaba
+SP|Nazaré Paulista
+SP|Piracaia
+SP|Tuiuti
+SP|Vargem
+SP|Campo Limpo Paulista
+SP|Itupeva
+SP|Jundiaí
+SP|Louveira
+SP|Várzea Paulista
+SP|Ibiúna
+SP|Piedade
+SP|Pilar do Sul
+SP|São Miguel Arcanjo
+SP|Tapiraí
+SP|Alumínio
+SP|Araçariguama
+SP|Araçoiaba da Serra
+SP|Cabreúva
+SP|Capela do Alto
+SP|Iperó
+SP|Itu
+SP|Mairinque
+SP|Porto Feliz
+SP|Salto
+SP|Salto de Pirapora
+SP|São Roque
+SP|Sarapuí
+SP|Sorocaba
+SP|Votorantim
+SP|Álvaro de Carvalho
+SP|Alvinlândia
+SP|Echaporã
+SP|Fernão
+SP|Gália
+SP|Garça
+SP|Lupércio
+SP|Marília
+SP|Ocauçu
+SP|Oriente
+SP|Oscar Bressane
+SP|Pompeia
+SP|Vera Cruz
+SP|Arco-Íris
+SP|Bastos
+SP|Herculândia
+SP|Iacri
+SP|Queiroz
+SP|Quintana
+SP|Tupã
+SP|Caieiras
+SP|Francisco Morato
+SP|Franco da Rocha
+SP|Mairiporã
+SP|Arujá
+SP|Guarulhos
+SP|Santa Isabel
+SP|Cotia
+SP|Embu
+SP|Embu-Guaçu
+SP|Itapecerica da Serra
+SP|Juquitiba
+SP|São Lourenço da Serra
+SP|Taboão da Serra
+SP|Vargem Grande Paulista
+SP|Biritiba Mirim
+SP|Ferraz de Vasconcelos
+SP|Guararema
+SP|Itaquaquecetuba
+SP|Mogi das Cruzes
+SP|Poá
+SP|Salesópolis
+SP|Suzano
+SP|Barueri
+SP|Cajamar
+SP|Carapicuíba
+SP|Itapevi
+SP|Jandira
+SP|Osasco
+SP|Pirapora do Bom Jesus
+SP|Santana de Parnaíba
+SP|Bertioga
+SP|Cubatão
+SP|Guarujá
+SP|Praia Grande
+SP|Santos
+SP|São Vicente
+SP|Diadema
+SP|Mauá
+SP|Ribeirão Pires
+SP|Rio Grande da Serra
+SP|Santo André
+SP|São Bernardo do Campo
+SP|São Caetano do Sul
+SP|São Paulo|capital
+SP|Araras
+SP|Conchal
+SP|Cordeirópolis
+SP|Iracemápolis
+SP|Leme
+SP|Limeira
+SP|Santa Cruz da Conceição
+SP|Santa Gertrudes
+SP|Águas de São Pedro
+SP|Capivari
+SP|Charqueada
+SP|Jumirim
+SP|Mombuca
+SP|Piracicaba
+SP|Rafard
+SP|Rio das Pedras
+SP|Saltinho
+SP|Santa Maria da Serra
+SP|São Pedro
+SP|Tietê
+SP|Brotas
+SP|Corumbataí
+SP|Ipeúna
+SP|Itirapina
+SP|Rio Claro
+SP|Torrinha
+SP|Adamantina
+SP|Flora Rica
+SP|Flórida Paulista
+SP|Inúbia Paulista
+SP|Irapuru
+SP|Lucélia
+SP|Mariápolis
+SP|Osvaldo Cruz
+SP|Pacaembu
+SP|Parapuã
+SP|Pracinha
+SP|Rinópolis
+SP|Sagres
+SP|Salmourão
+SP|Dracena
+SP|Junqueirópolis
+SP|Monte Castelo
+SP|Nova Guataporanga
+SP|Ouro Verde
+SP|Panorama
+SP|Paulicéia
+SP|Santa Mercedes
+SP|São João do Pau-d'Alho
+SP|Tupi Paulista
+SP|Alfredo Marcondes
+SP|Álvares Machado
+SP|Anhumas
+SP|Caiabu
+SP|Caiuá
+SP|Emilianópolis
+SP|Estrela do Norte
+SP|Euclides da Cunha Paulista
+SP|Indiana
+SP|João Ramalho
+SP|Marabá Paulista
+SP|Martinópolis
+SP|Mirante do Paranapanema
+SP|Narandiba
+SP|Piquerobi
+SP|Pirapozinho
+SP|Presidente Bernardes
+SP|Presidente Epitácio
+SP|Presidente Prudente
+SP|Presidente Venceslau
+SP|Rancharia
+SP|Regente Feijó
+SP|Ribeirão dos Índios
+SP|Rosana
+SP|Sandovalina
+SP|Santo Anastácio
+SP|Santo Expedito
+SP|Taciba
+SP|Tarabai
+SP|Teodoro Sampaio
+SP|Barretos
+SP|Colina
+SP|Colômbia
+SP|Altinópolis
+SP|Batatais
+SP|Cajuru
+SP|Cássia dos Coqueiros
+SP|Santa Cruz da Esperança
+SP|Santo Antônio da Alegria
+SP|Cristais Paulista
+SP|Franca
+SP|Itirapuã
+SP|Jeriquara
+SP|Patrocínio Paulista
+SP|Pedregulho
+SP|Restinga
+SP|Ribeirão Corrente
+SP|Rifaina
+SP|São José da Bela Vista
+SP|Aramina
+SP|Buritizal
+SP|Guará
+SP|Igarapava
+SP|Ituverava
+SP|Bebedouro
+SP|Cândido Rodrigues
+SP|Fernando Prestes
+SP|Guariba
+SP|Jaboticabal
+SP|Monte Alto
+SP|Monte Azul Paulista
+SP|Pirangi
+SP|Pitangueiras
+SP|Santa Ernestina
+SP|Taiaçu
+SP|Taiuva
+SP|Taquaral
+SP|Taquaritinga
+SP|Terra Roxa
+SP|Viradouro
+SP|Vista Alegre do Alto
+SP|Barrinha
+SP|Brodowski
+SP|Cravinhos
+SP|Dumont
+SP|Guatapará
+SP|Jardinópolis
+SP|Luís Antônio
+SP|Pontal
+SP|Pradópolis
+SP|Ribeirão Preto
+SP|Santa Rita do Passa-Quatro
+SP|Santa Rosa de Viterbo
+SP|São Simão
+SP|Serra Azul
+SP|Serrana
+SP|Sertãozinho
+SP|Guaíra
+SP|Ipuã
+SP|Jaborandi
+SP|Miguelópolis
+SP|Morro Agudo
+SP|Nuporanga
+SP|Orlândia
+SP|Sales Oliveira
+SP|São Joaquim da Barra
+SP|Auriflama
+SP|Floreal
+SP|Gastão Vidigal
+SP|General Salgado
+SP|Guzolândia
+SP|Magda
+SP|Nova Castilho
+SP|Nova Luzitânia
+SP|São João de Iracema
+SP|Ariranha
+SP|Cajobi
+SP|Catanduva
+SP|Catiguá
+SP|Elisiário
+SP|Embaúba
+SP|Novais
+SP|Palmares Paulista
+SP|Paraíso
+SP|Pindorama
+SP|Santa Adélia
+SP|Severínia
+SP|Tabapuã
+SP|Estrela d'Oeste
+SP|Fernandópolis
+SP|Guarani d'Oeste
+SP|Indiaporã
+SP|Macedônia
+SP|Meridiano
+SP|Mira Estrela
+SP|Ouroeste
+SP|Pedranópolis
+SP|São João das Duas Pontes
+SP|Turmalina
+SP|Aparecida d'Oeste
+SP|Aspásia
+SP|Dirce Reis
+SP|Dolcinópolis
+SP|Jales
+SP|Marinópolis
+SP|Mesópolis
+SP|Nova Canaã Paulista
+SP|Palmeira d'Oeste
+SP|Paranapuã
+SP|Pontalinda
+SP|Populina
+SP|Rubinéia
+SP|Santa Albertina
+SP|Santa Clara d'Oeste
+SP|Santa Fé do Sul
+SP|Santa Rita d'Oeste
+SP|Santa Salete
+SP|Santana da Ponte Pensa
+SP|São Francisco
+SP|Três Fronteiras
+SP|Urânia
+SP|Vitória Brasil
+SP|Macaubal
+SP|Monções
+SP|Monte Aprazível
+SP|Neves Paulista
+SP|Nhandeara
+SP|Nipoã
+SP|Poloni
+SP|Sebastianópolis do Sul
+SP|União Paulista
+SP|Irapuã
+SP|Itajobi
+SP|Marapoama
+SP|Novo Horizonte
+SP|Sales
+SP|Urupês
+SP|Adolfo
+SP|Altair
+SP|Bady Bassitt
+SP|Bálsamo
+SP|Cedral
+SP|Guapiaçu
+SP|Guaraci
+SP|Ibirá
+SP|Icém
+SP|Ipiguá
+SP|Jaci
+SP|José Bonifácio
+SP|Mendonça
+SP|Mirassol
+SP|Mirassolândia
+SP|Nova Aliança
+SP|Nova Granada
+SP|Olímpia
+SP|Onda Verde
+SP|Orindiúva
+SP|Palestina
+SP|Paulo de Faria
+SP|Planalto
+SP|Potirendaba
+SP|São José do Rio Preto
+SP|Tanabi
+SP|Ubarana
+SP|Uchoa
+SP|Zacarias
+SP|Álvares Florence
+SP|Américo de Campos
+SP|Cardoso
+SP|Cosmorama
+SP|Parisi
+SP|Pontes Gestal
+SP|Riolândia
+SP|Valentim Gentil
+SP|Votuporanga
+SP|Arapeí
+SP|Areias
+SP|Bananal
+SP|São José do Barreiro
+SP|Silveiras
+SP|Campos do Jordão
+SP|Monteiro Lobato
+SP|Santo Antônio do Pinhal
+SP|São Bento do Sapucaí
+SP|Caraguatatuba
+SP|Ilhabela
+SP|São Sebastião
+SP|Ubatuba
+SP|Aparecida
+SP|Cachoeira Paulista
+SP|Canas
+SP|Cruzeiro
+SP|Guaratinguetá
+SP|Lavrinhas
+SP|Lorena
+SP|Piquete
+SP|Potim
+SP|Queluz
+SP|Roseira
+SP|Cunha
+SP|Jambeiro
+SP|Lagoinha
+SP|Natividade da Serra
+SP|Paraibuna
+SP|Redenção da Serra
+SP|São Luiz do Paraitinga
+SP|Caçapava
+SP|Igaratá
+SP|Jacareí
+SP|Pindamonhangaba
+SP|Santa Branca
+SP|São José dos Campos
+SP|Taubaté
+SP|Tremembé

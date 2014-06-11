@@ -1,0 +1,55 @@
+## Lista de Municípios de Rondônia. 53 Municípios.
+## Original encoding: UTF-8
+RO|Alta Floresta d'Oeste
+RO|Alto Alegre dos Parecis
+RO|Alto Paraíso
+RO|Alvorada d'Oeste
+RO|Ariquemes
+RO|Buritis
+RO|Cabixi
+RO|Cacaulândia
+RO|Cacoal
+RO|Campo Novo de Rondônia
+RO|Candeias do Jamari
+RO|Castanheiras
+RO|Cerejeiras
+RO|Chupinguaia
+RO|Colorado do Oeste
+RO|Corumbiara
+RO|Costa Marques
+RO|Cujubim
+RO|Espigão d'Oeste
+RO|Extrema de Rondônia
+RO|Governador Jorge Teixeira
+RO|Guajará-Mirim
+RO|Itapuã do Oeste
+RO|Jaru
+RO|Ji-Paraná
+RO|Machadinho d'Oeste
+RO|Ministro Andreazza
+RO|Mirante da Serra
+RO|Monte Negro
+RO|Nova Brasilândia d'Oeste
+RO|Nova Mamoré
+RO|Nova União
+RO|Novo Horizonte do Oeste
+RO|Ouro Preto do Oeste
+RO|Parecis
+RO|Pimenta Bueno
+RO|Pimenteiras do Oeste
+RO|Porto Velho|capital
+RO|Presidente Médici
+RO|Primavera de Rondônia
+RO|Rio Crespo
+RO|Rolim de Moura
+RO|Santa Luzia d'Oeste
+RO|São Felipe d'Oeste
+RO|São Francisco do Guaporé
+RO|São Miguel do Guaporé
+RO|Seringueiras
+RO|Teixeirópolis
+RO|Theobroma
+RO|Urupá
+RO|Vale do Anari
+RO|Vale do Paraíso
+RO|Vilhena
