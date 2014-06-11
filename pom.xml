@@ -43,6 +43,10 @@
         <project.build.sourceFormat>1.7</project.build.sourceFormat>
         <spring.version>4.0.3.RELEASE</spring.version>
         <skipTests>false</skipTests>
+        
+        <!-- netbeans configs -->
+        <netbeans.hint.license>lgpl21</netbeans.hint.license>
+        <netbeans.hint.displayName>${project.artifactId} ${project.version}</netbeans.hint.displayName>
     </properties>
 
     <dependencies>
