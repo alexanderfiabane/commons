@@ -19,12 +19,6 @@
     <name>commons-persistence</name>
     <description>Basic implementation of Entities, DAOs and Services</description>
 
-    <properties>
-        <!-- dependencies versions : easy update -->
-        <spring.version>3.2.4.RELEASE</spring.version>
-        <hibernate.version>4.2.4.Final</hibernate.version>
-        <jasper.version>5.2.0</jasper.version>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>br.msf.commons</groupId>

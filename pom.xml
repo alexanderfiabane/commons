@@ -41,8 +41,11 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.sourceFormat>1.7</project.build.sourceFormat>
-        <spring.version>4.0.3.RELEASE</spring.version>
         <skipTests>false</skipTests>
+        <!-- dependencies versions : easy update -->
+        <hibernate.version>[4.2.8.Final]</hibernate.version>
+        <spring.version>[3.2.9.RELEASE]</spring.version>
+        <jasper.version>5.2.0</jasper.version>
         
         <!-- netbeans configs -->
         <netbeans.hint.license>lgpl21</netbeans.hint.license>
