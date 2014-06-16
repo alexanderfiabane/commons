@@ -90,7 +90,7 @@ public class AnnotationUtils {
             return CollectionUtils.EMPTY_LIST;
         }
         Collection<Method> allMethods = ReflectionUtils.getMethods(targetInstance, false);
-        Collection<Method> annotatedMethods = new ArrayList<>(20);
+        Collection<Method> annotatedMethods = new ArrayList<Method>(20);
         for (final Method method : allMethods) {
             if (AnnotationUtils.hasAnnotation(method, annotationClass)) {
                 annotatedMethods.add(method);

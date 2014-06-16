@@ -114,7 +114,7 @@ public class Age implements Comparable<Age> {
 
     @Override
     public String toString() {
-        final Collection<CharSequence> texts = new ArrayList<>(7);
+        final Collection<CharSequence> texts = new ArrayList<CharSequence>(7);
         for (int i = 0; i <= MSECS; i++) {
             final int value = this.fields[i];
             if (value > 0) {

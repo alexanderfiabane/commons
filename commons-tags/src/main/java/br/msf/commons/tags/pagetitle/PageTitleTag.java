@@ -23,7 +23,7 @@ import org.springframework.core.io.Resource;
 public class PageTitleTag extends AbstractLabeledIconizedTag {
 
     private static final Properties PROPERTIES = loadProperties();
-    private final Collection<BreadcrumbTag> steps = new ArrayList<>();
+    private final Collection<BreadcrumbTag> steps = new ArrayList<BreadcrumbTag>();
     private String breadcrumbSeparator;
     private Boolean defaultIsLabelKey;
 
@@ -60,7 +60,7 @@ public class PageTitleTag extends AbstractLabeledIconizedTag {
 
     @Override
     public CharSequence assembleHtml() throws JspException, IOException {
-        final Map<String, Object> params = new LinkedHashMap<>();
+        final Map<String, Object> params = new LinkedHashMap<String, Object>();
         params.put("id", getNullSafeId());
         params.put("label", getResolvedLabel());
         params.put("icon", getIcon());

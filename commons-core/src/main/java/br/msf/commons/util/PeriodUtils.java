@@ -392,7 +392,7 @@ public abstract class PeriodUtils {
         if (List.class.isAssignableFrom(collection.getClass())) {
             return (List<Period>) collection;
         } else {
-            return new ArrayList<>(collection);
+            return new ArrayList<Period>(collection);
         }
     }
 
@@ -438,7 +438,7 @@ public abstract class PeriodUtils {
             decomp[4] = rest;
         }
 
-        final List<String> tmp = new ArrayList<>(decomp.length);
+        final List<String> tmp = new ArrayList<String>(decomp.length);
         for (int i = 0; i < decomp.length; i++) {
             if (decomp[i] != null && (decomp[i] > 0 || !ignoreZeroes)) {
                 final StringBuilder b = new StringBuilder().

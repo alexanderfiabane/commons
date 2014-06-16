@@ -40,7 +40,7 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.build.sourceFormat>1.7</project.build.sourceFormat>
+        <project.build.sourceFormat>1.6</project.build.sourceFormat>
         <skipTests>false</skipTests>
         <!-- dependencies versions : easy update -->
         <hibernate.version>[4.2.8.Final]</hibernate.version>

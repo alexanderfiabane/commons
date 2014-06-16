@@ -162,7 +162,7 @@ public abstract class ReflectionUtils {
                 getter.setAccessible(true);
             }
             return getter.invoke(target);
-        } catch (IllegalAccessException | IllegalArgumentException | SecurityException | InvocationTargetException ex) {
+        } catch (Exception ex) {
             throw new RuntimeException("Could not invoke " + getter.getName() + "()", ex);
         }
     }
@@ -183,7 +183,7 @@ public abstract class ReflectionUtils {
                 setter.setAccessible(true);
             }
             setter.invoke(object, value);
-        } catch (IllegalAccessException | IllegalArgumentException | SecurityException | InvocationTargetException ex) {
+        } catch (Exception ex) {
             throw new RuntimeException("Não foi possível executar " + setter.getName() + "( " + value.getClass().getName() + " )", ex);
         }
     }
@@ -210,7 +210,7 @@ public abstract class ReflectionUtils {
      * @return The list of the fields owned by the given class, including superclasses fields, recursively.
      */
     public static List<Field> getFields(final Class mainClass) {
-        final List<Field> fields = new ArrayList<>();
+        final List<Field> fields = new ArrayList<Field>();
         for (Class clazz = mainClass; clazz != null && !Object.class.equals(clazz); clazz = clazz.getSuperclass()) {
             fields.addAll(Arrays.asList(clazz.getDeclaredFields()));
         }
@@ -239,7 +239,7 @@ public abstract class ReflectionUtils {
                 f.setAccessible(true);
             }
             return (T) f.get(object);
-        } catch (IllegalAccessException | IllegalArgumentException | SecurityException ex) {
+        } catch (Exception ex) {
             throw new RuntimeException(ex);
         }
     }
@@ -282,7 +282,7 @@ public abstract class ReflectionUtils {
                 constructor.setAccessible(true);
             }
             return constructor;
-        } catch (IllegalStateException | NoSuchMethodException | SecurityException ex) {
+        } catch (Exception ex) {
             throw new RuntimeException(ex);
         }
     }
@@ -298,7 +298,7 @@ public abstract class ReflectionUtils {
         ArgumentUtils.rejectIfNull(c);
         try {
             return getDefaultConstructor(c).newInstance();
-        } catch (IllegalAccessException | IllegalArgumentException | InstantiationException | InvocationTargetException ex) {
+        } catch (Exception ex) {
             throw new RuntimeException(ex);
         }
     }
@@ -315,7 +315,7 @@ public abstract class ReflectionUtils {
     public static Collection<Field> getFields(final Object object, final boolean includeStatic, final boolean includeTransient, final boolean includeVolatile) {
         ArgumentUtils.rejectIfNull(object);
         Class<?> clazz = object.getClass();
-        Collection<Field> fields = new ArrayList<>();
+        Collection<Field> fields = new ArrayList<Field>();
         while (clazz != null && !Object.class.equals(clazz)) {
             Field[] declaredFields = clazz.getDeclaredFields();
             for (Field field : declaredFields) {
@@ -337,7 +337,7 @@ public abstract class ReflectionUtils {
 
     public static Collection<Method> getMethods(final Object object, final boolean includeStatic) {
         ArgumentUtils.rejectIfNull(object);
-        final Collection<Method> methods = new TreeSet<>(new Comparator<Method>() {
+        final Collection<Method> methods = new TreeSet<Method>(new Comparator<Method>() {
             @Override
             public int compare(Method f1, Method f2) {
                 return f1.getName().compareTo(f2.getName());
@@ -385,7 +385,7 @@ public abstract class ReflectionUtils {
             if (hook != null) {
                 hook.postHook(targetInstance, args);
             }
-        } catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException ex) {
+        } catch (Exception ex) {
             LOGGER.log(Level.WARNING, null, ex);
         }
         return ret;
@@ -439,7 +439,7 @@ public abstract class ReflectionUtils {
         }
         try {
             return clazz.getDeclaredMethod(name, parameterTypes);
-        } catch (NoSuchMethodException | SecurityException ex) {
+        } catch (Exception ex) {
             return getMethod(clazz.getSuperclass(), name, parameterTypes);
         }
     }
@@ -464,7 +464,7 @@ public abstract class ReflectionUtils {
                 return false;
             }
             return clazz.getDeclaredMethod(methodName, Object.class) != null;
-        } catch (NoSuchMethodException | SecurityException ex) {
+        } catch (Exception ex) {
             return false;
         }
     }

@@ -498,7 +498,7 @@ public abstract class AbstractDateUtils extends org.apache.commons.lang3.time.Da
     }
 
     protected static Collection<Calendar> getBrasilianHolidays(final int year) {
-        Collection<Calendar> holidays = new ArrayList<>();
+        Collection<Calendar> holidays = new ArrayList<Calendar>();
 
         // feriados fixos
         holidays.add(new GregorianCalendar(year, Calendar.JANUARY, 1)); // Confraternizacao Universal

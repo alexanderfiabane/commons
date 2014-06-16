@@ -201,7 +201,7 @@ public class MathExpression implements Serializable {
         if (CharSequenceUtils.isBlankOrNull(expression)) {
             return postFix.toString();
         }
-        Stack<String> stack = new Stack<>();
+        Stack<String> stack = new Stack<String>();
         Collection<String> tokens = CharSequenceUtils.split(expression, "\\s+");
         int priority;
         for (String token : tokens) {
@@ -241,7 +241,7 @@ public class MathExpression implements Serializable {
         EnhancedStringBuilder builder = (EnhancedStringBuilder) toPostFix();
         List<String> tks = builder.split("\\s+");
         Collections.reverse(tks);
-        Stack<String> stack = new Stack<>();
+        Stack<String> stack = new Stack<String>();
         for (String tk : tks) {
             stack.push(tk);
         }
@@ -263,7 +263,7 @@ public class MathExpression implements Serializable {
             if (lParCount != rParCount) {
                 throw new InvalidExpressionException();
             }
-            Stack<BigDecimal> operands = new Stack<>();
+            Stack<BigDecimal> operands = new Stack<BigDecimal>();
             while (!exprStack.isEmpty()) {
                 String current = exprStack.pop();
                 if (isNumber(current)) {

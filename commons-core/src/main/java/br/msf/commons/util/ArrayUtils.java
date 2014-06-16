@@ -230,7 +230,7 @@ public abstract class ArrayUtils {
         if (ArrayUtils.isEmptyOrNull(objects)) {
             return CollectionUtils.EMPTY_LIST;
         }
-        final ArrayList<T> wrapper = new ArrayList<>(objects.length);
+        final ArrayList<T> wrapper = new ArrayList<T>(objects.length);
         for (T item : objects) {
             if (item != null) {
                 wrapper.add(item);

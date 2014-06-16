@@ -157,7 +157,7 @@ public class ConfigurableVelocityProcessor<P> implements VelocityProcessor<P> {
      */
     public final void addTool(final String toolName, final Object toolValue) {
         if (CollectionUtils.isEmptyOrNull(tools)) {
-            tools = new HashMap<>();
+            tools = new HashMap<String, Object>();
         }
         tools.put(toolName, toolValue);
     }

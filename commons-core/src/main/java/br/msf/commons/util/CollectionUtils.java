@@ -259,7 +259,7 @@ public abstract class CollectionUtils {
      * @return The contents of the given collection as a list.
      */
     public static <T extends Object> List<T> asList(final Collection<T> collection) {
-        return (ObjectUtils.isList(collection, true)) ? (List<T>) collection : new ArrayList<>(collection);
+        return (ObjectUtils.isList(collection, true)) ? (List<T>) collection : new ArrayList<T>(collection);
     }
 
     /**
@@ -273,7 +273,7 @@ public abstract class CollectionUtils {
      * @return The contents of the given collection as a Set.
      */
     public static <T extends Object> Set<T> asSet(final Collection<T> collection) {
-        return (ObjectUtils.isSet(collection, true)) ? (Set<T>) collection : new LinkedHashSet<>(collection);
+        return (ObjectUtils.isSet(collection, true)) ? (Set<T>) collection : new LinkedHashSet<T>(collection);
     }
 
     /**
@@ -478,7 +478,7 @@ public abstract class CollectionUtils {
         if (CollectionUtils.isEmptyOrNull(targetCollection)) {
             return EMPTY_LIST;
         }
-        final Collection<T> projection = new ArrayList<>(targetCollection.size());
+        final Collection<T> projection = new ArrayList<T>(targetCollection.size());
         for (Object element : targetCollection) {
             final Object toAdd = ReflectionUtils.invokeCascadeGetterFor(element, attributePath);
             if (toAdd != null || !ignoreNullValues) {
@@ -493,7 +493,7 @@ public abstract class CollectionUtils {
         if (size <= 0) {
             return EMPTY_LIST;
         }
-        final Collection<T> all = new ArrayList<>(size);
+        final Collection<T> all = new ArrayList<T>(size);
         for (final Collection<T> c : collections) {
             if (isNotEmpty(c)) {
                 all.addAll(c);
@@ -541,20 +541,20 @@ public abstract class CollectionUtils {
             try {
                 // try to use the same type of collection of the source
                 instance = collection.getClass().newInstance();
-            } catch (InstantiationException | IllegalAccessException ex) {
+            } catch (Exception ex) {
                 /**
                  * Could not instantiate via reflection. probably is a
                  * Unmodifiable Collection (not meant to be instantiated
                  * directly) Fallback to common implementations...
                  */
                 if (ObjectUtils.isSortedSet(collection)) {
-                    instance = new TreeSet<>();
+                    instance = new TreeSet<T>();
                 } else if (ObjectUtils.isSet(collection)) {
-                    instance = new LinkedHashSet<>(collection.size());
+                    instance = new LinkedHashSet<T>(collection.size());
                 } else if (ObjectUtils.isQueue(collection)) {
-                    instance = new LinkedList<>(); // implements List, Queue and Deque (deque is a queue)
+                    instance = new LinkedList<T>(); // implements List, Queue and Deque (deque is a queue)
                 } else {
-                    instance = new ArrayList<>(collection.size());
+                    instance = new ArrayList<T>(collection.size());
                 }
             }
         }
@@ -653,7 +653,7 @@ public abstract class CollectionUtils {
         } else if (ArrayUtils.isEmptyOrNull(params)) {
             return CollectionUtils.EMPTY_MAP;
         }
-        final Map<K, V> map = new LinkedHashMap<>(params.length);
+        final Map<K, V> map = new LinkedHashMap<K, V>(params.length);
         for (final Object[] entry : params) {
             if (entry == null || entry.length != 2) {
                 throw new IllegalArgumentException("The 'params' array may contain non-null two-element arrays (entries) only.");
@@ -679,7 +679,7 @@ public abstract class CollectionUtils {
         final EnhancedStringBuilder builder = new EnhancedStringBuilder(value);
         if (CharSequenceUtils.isNotBlank(value)) {
             // create the properties map to use in the crossreference resolution.
-            Map<String, String> supportedProps = new LinkedHashMap<>();
+            Map<String, String> supportedProps = new LinkedHashMap<String, String>();
             // adds system props
             supportedProps.putAll(getSystemProps());
             // adds convenience props
@@ -697,7 +697,7 @@ public abstract class CollectionUtils {
             return null;
         }
         if (isNotEmpty(map)) {
-            final Map<String, String> converted = new LinkedHashMap<>(map.size());
+            final Map<String, String> converted = new LinkedHashMap<String, String>(map.size());
             if (Properties.class.isAssignableFrom(map.getClass())) {
                 // Properties are a case apart, because it can have 'defaults'.
                 final Properties p = (Properties) map;
@@ -717,7 +717,7 @@ public abstract class CollectionUtils {
     public static Map<String, String> getSystemProps() {
         try {
             final Properties props = System.getProperties();
-            final Map<String, String> map = new LinkedHashMap<>();
+            final Map<String, String> map = new LinkedHashMap<String, String>();
             for (Entry<Object, Object> entry : props.entrySet()) {
                 map.put(entry.getKey().toString(), entry.getValue().toString());
             }
@@ -729,7 +729,7 @@ public abstract class CollectionUtils {
     }
 
     public static Map<String, String> getUtilProps() {
-        final Map<String, String> utilProps = new LinkedHashMap<>(8);
+        final Map<String, String> utilProps = new LinkedHashMap<String, String>(8);
         utilProps.put("date", DateUtils.formatDate(DateUtils.today()));
         utilProps.put("time", DateUtils.formatTime(DateUtils.now()));
         utilProps.put("year", CharSequenceUtils.toNullSafeString(DateUtils.year()));

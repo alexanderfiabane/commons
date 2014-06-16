@@ -373,7 +373,7 @@ public abstract class ImageUtils {
             } else {
                 throw new ImageIOException("Unsupported image format");
             }
-        } catch (ImageIOException | IOException ex) {
+        } catch (Exception ex) {
             throw new ImageIOException("Given bytes do not seem to be an image.", ex);
         }
     }
@@ -971,7 +971,7 @@ public abstract class ImageUtils {
             }
             final ICC_Profile profile = Sanselan.getICCProfile(bytes);
             return convertCmykToRgb(raster, profile);
-        } catch (IOException | ImageReadException ex) {
+        } catch (Exception ex) {
             throw new ImageIOException(ex);
         } finally {
             closeQuietly(is);
@@ -998,7 +998,7 @@ public abstract class ImageUtils {
                 }
             }
             return colorSpaceInfo;
-        } catch (IOException | ImageReadException ex) {
+        } catch (Exception ex) {
             throw new ImageIOException(ex);
         }
     }
