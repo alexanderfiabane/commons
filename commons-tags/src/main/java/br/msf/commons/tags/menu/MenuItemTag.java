@@ -113,15 +113,15 @@ public class MenuItemTag extends AbstractLabeledIconizedHiperlinkedTag implement
             return null;
         }
         Map<String, Object> params = new HashMap<String, Object>();
-        params.put("id", getNullSafeId());
-        params.put("label", getResolvedLabel());
-        params.put("iconSize", getIconSize(32));
-        params.put("iconContainerSize", NumberUtils.toInteger(getIconSize(32) * 1.5d));
-        params.put("icon", getIcon());
-        params.put("onclick", isDisabled(Boolean.FALSE) ? "" : "location.href = '" + getUrl() + "';");
-        params.put("miClass", isDisabled(Boolean.FALSE) ? getMiDisabledClass("miDisabled") : getMiClass("mi"));
-        params.put("iconClass", isDisabled(Boolean.FALSE) ? getIconDisabledClass("miIconDisabled") : getIconClass("miIcon"));
-        params.put("labelClass", isDisabled(Boolean.FALSE) ? getLabelDisabledClass("miLabelDisabled") : getLabelClass("miLabel"));
+        params.put("mi_id", getNullSafeId());
+        params.put("mi_label", getResolvedLabel());
+        params.put("mi_iconSize", getIconSize(32));
+        params.put("mi_iconContainerSize", NumberUtils.toInteger(getIconSize(32) * 1.5d));
+        params.put("mi_icon", getIcon());
+        params.put("mi_onclick", isDisabled(Boolean.FALSE) ? "" : "location.href = '" + getUrl() + "';");
+        params.put("mi_miClass", isDisabled(Boolean.FALSE) ? getMiDisabledClass("miDisabled") : getMiClass("mi"));
+        params.put("mi_iconClass", isDisabled(Boolean.FALSE) ? getIconDisabledClass("miIconDisabled") : getIconClass("miIcon"));
+        params.put("mi_labelClass", isDisabled(Boolean.FALSE) ? getLabelDisabledClass("miLabelDisabled") : getLabelClass("miLabel"));
 
         final EnhancedStringBuilder builder = new EnhancedStringBuilder(PROPERTIES.getProperty("menuItem.html"));
         return builder.replaceParams(params);

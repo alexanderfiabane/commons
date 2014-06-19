@@ -141,8 +141,8 @@ public class MenuTag extends AbstractHtmlGeneratorTag {
             builder.appendln(row);
         }
         final Map<String, CharSequence> params = new LinkedHashMap<String, CharSequence>();
-        params.put("id", getNullSafeId());
-        params.put("menuRows", builder);
+        params.put("m_id", getNullSafeId());
+        params.put("m_menuRows", builder);
         return TagUtils.toEnhancedStringBuilder(PROPERTIES.getProperty("menu.html")).replaceParams(params).appendln();
     }
 
@@ -197,8 +197,8 @@ public class MenuTag extends AbstractHtmlGeneratorTag {
                     adjustDefaults((MenuItemTag) cell);
                 }
                 final Map<String, CharSequence> params = new LinkedHashMap<String, CharSequence>();
-                params.put("idColumn", "MenuColumn" + itemIndex);
-                params.put("menuItem", cell.assembleHtml());
+                params.put("m_idColumn", "MenuColumn" + itemIndex);
+                params.put("m_menuItem", cell.assembleHtml());
                 assembledColumns.add(TagUtils.toEnhancedStringBuilder(PROPERTIES.getProperty("menuColumn.html")).replaceParams(params).appendln());
                 itemIndex++;
             }
@@ -216,8 +216,8 @@ public class MenuTag extends AbstractHtmlGeneratorTag {
             columnCount++;
             if (columnCount >= getItensPerRow()) {
                 final Map<String, CharSequence> params = new LinkedHashMap<String, CharSequence>();
-                params.put("idRow", "MenuRow" + rowIndex);
-                params.put("menuColumns", builder);
+                params.put("m_idRow", "MenuRow" + rowIndex);
+                params.put("m_menuColumns", builder);
                 assembledRows.add(TagUtils.toEnhancedStringBuilder(PROPERTIES.getProperty("menuRow.html")).replaceParams(params).appendln());
                 builder.clear();
                 columnCount = 0;
@@ -226,8 +226,8 @@ public class MenuTag extends AbstractHtmlGeneratorTag {
         }
         if (builder.isNotBlank()) {
             final Map<String, CharSequence> params = new LinkedHashMap<String, CharSequence>();
-            params.put("idRow", "MenuRow" + rowIndex);
-            params.put("menuColumns", builder);
+            params.put("m_idRow", "MenuRow" + rowIndex);
+            params.put("m_menuColumns", builder);
             assembledRows.add(TagUtils.toEnhancedStringBuilder(PROPERTIES.getProperty("menuRow.html")).replaceParams(params).appendln());
         }
         return assembledRows;

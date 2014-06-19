@@ -61,11 +61,11 @@ public class PageTitleTag extends AbstractLabeledIconizedTag {
     @Override
     public CharSequence assembleHtml() throws JspException, IOException {
         final Map<String, Object> params = new LinkedHashMap<String, Object>();
-        params.put("id", getNullSafeId());
-        params.put("label", getResolvedLabel());
-        params.put("icon", getIcon());
-        params.put("iconSize", getIconSize(48));
-        params.put("breadcrumbs", assembleBreadCrumbs(steps));
+        params.put("pt_id", getNullSafeId());
+        params.put("pt_label", getResolvedLabel());
+        params.put("pt_icon", getIcon());
+        params.put("pt_iconSize", getIconSize(48));
+        params.put("pt_breadcrumbs", assembleBreadCrumbs(steps));
         return TagUtils.toEnhancedStringBuilder(PROPERTIES.getProperty("pageTitle.html")).replaceParams(params).appendln();
     }
 

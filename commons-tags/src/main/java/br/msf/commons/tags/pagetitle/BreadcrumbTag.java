@@ -59,12 +59,12 @@ public class BreadcrumbTag extends AbstractLabeledHiperlinkedTag {
     @Override
     public CharSequence assembleHtml() throws JspException, IOException {
         final Map<String, CharSequence> params = new LinkedHashMap<String, CharSequence>();
-        params.put("id", getNullSafeId());
-        params.put("cssClass", getCssClass());
-        params.put("cssStyle", getCssStyle());
-        params.put("url", getUrl());
-        params.put("label", getResolvedLabel());
-        params.put("separator", getSeparator());
+        params.put("bc_id", getNullSafeId());
+        params.put("bc_cssClass", getCssClass());
+        params.put("bc_cssStyle", getCssStyle());
+        params.put("bc_url", getUrl());
+        params.put("bc_label", getResolvedLabel());
+        params.put("bc_separator", getSeparator());
 
         return TagUtils.toEnhancedStringBuilder(PROPERTIES.getProperty("breadcrumb.html")).replaceParams(params).appendln();
     }
