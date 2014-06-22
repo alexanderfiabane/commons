@@ -16,18 +16,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301  USA
  */
-package br.msf.commons.mocca.ajax;
+package br.ojimarcius.commons.mocca.ajax;
 
-import br.msf.commons.persistence.model.Entity;
-import br.msf.commons.persistence.service.EntityService;
-import br.msf.commons.text.EnhancedStringBuilder;
-import br.msf.commons.util.ArgumentUtils;
-import br.msf.commons.util.CalendarUtils;
-import br.msf.commons.util.CharSequenceUtils;
-import br.msf.commons.util.CollectionUtils;
-import br.msf.commons.util.DateUtils;
-import br.msf.commons.util.LocaleUtils;
-import br.msf.commons.util.NumberUtils;
+import br.ojimarcius.commons.persistence.model.Entity;
+import br.ojimarcius.commons.persistence.service.EntityService;
+import br.ojimarcius.commons.text.EnhancedStringBuilder;
+import br.ojimarcius.commons.util.ArgumentUtils;
+import br.ojimarcius.commons.util.CalendarUtils;
+import br.ojimarcius.commons.util.CharSequenceUtils;
+import br.ojimarcius.commons.util.CollectionUtils;
+import br.ojimarcius.commons.util.DateUtils;
+import br.ojimarcius.commons.util.LocaleUtils;
+import br.ojimarcius.commons.util.NumberUtils;
 import java.io.Serializable;
 import java.lang.reflect.Array;
 import java.util.ArrayList;

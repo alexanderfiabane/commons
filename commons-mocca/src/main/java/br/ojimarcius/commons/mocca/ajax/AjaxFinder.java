@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301  USA
  */
-package br.msf.commons.mocca.ajax;
+package br.ojimarcius.commons.mocca.ajax;
 
 import java.io.Serializable;
 import java.util.Collection;
