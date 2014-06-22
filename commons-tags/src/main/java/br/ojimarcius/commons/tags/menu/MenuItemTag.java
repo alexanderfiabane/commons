@@ -137,7 +137,7 @@ public class MenuItemTag extends AbstractLabeledIconizedHiperlinkedTag implement
     private static Properties loadProperties() {
         try {
             final Resource usr = new ClassPathResource("/MenuItem.properties");
-            final Resource def = new ClassPathResource("/br/msf/commons/tags/menu/MenuItem.properties");
+            final Resource def = new ClassPathResource("/br/ojimarcius/commons/tags/menu/MenuItem.properties");
             final Properties defProps = new Properties();
             final Properties props;
             defProps.load(def.getInputStream());

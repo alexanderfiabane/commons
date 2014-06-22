@@ -77,7 +77,7 @@ public abstract class ImageUtils {
     /**
      * Color profile used when there is no embedded one.
      */
-    private static final String DEFAULT_COLOR_PROFILE = "/br/msf/commons/io/ISOcoated_v2_300_eci.icc";
+    private static final String DEFAULT_COLOR_PROFILE = "/br/ojimarcius/commons/io/ISOcoated_v2_300_eci.icc";
 
     /**
      * Util files cannot be instantiated.

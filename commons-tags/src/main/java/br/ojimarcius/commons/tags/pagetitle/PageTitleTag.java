@@ -93,7 +93,7 @@ public class PageTitleTag extends AbstractLabeledIconizedTag {
     private static Properties loadProperties() {
         try {
             final Resource usr = new ClassPathResource("/PageTitle.properties");
-            final Resource def = new ClassPathResource("/br/msf/commons/tags/pagetitle/PageTitle.properties");
+            final Resource def = new ClassPathResource("/br/ojimarcius/commons/tags/pagetitle/PageTitle.properties");
             final Properties defProps = new Properties();
             final Properties props;
             defProps.load(def.getInputStream());

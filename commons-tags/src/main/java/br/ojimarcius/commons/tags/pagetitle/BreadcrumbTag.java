@@ -72,7 +72,7 @@ public class BreadcrumbTag extends AbstractLabeledHiperlinkedTag {
     private static Properties loadProperties() {
         try {
             final Resource usr = new ClassPathResource("/Breadcrumb.properties");
-            final Resource def = new ClassPathResource("/br/msf/commons/tags/pagetitle/Breadcrumb.properties");
+            final Resource def = new ClassPathResource("/br/ojimarcius/commons/tags/pagetitle/Breadcrumb.properties");
             final Properties defProps = new Properties();
             final Properties props;
             defProps.load(def.getInputStream());

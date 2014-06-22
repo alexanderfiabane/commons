@@ -240,7 +240,7 @@ public class MenuTag extends AbstractHtmlGeneratorTag {
     private static Properties loadProperties() {
         try {
             final Resource usr = new ClassPathResource("/Menu.properties");
-            final Resource def = new ClassPathResource("/br/msf/commons/tags/menu/Menu.properties");
+            final Resource def = new ClassPathResource("/br/ojimarcius/commons/tags/menu/Menu.properties");
             final Properties defProps = new Properties();
             final Properties props;
             defProps.load(def.getInputStream());
