@@ -12,9 +12,9 @@
  * You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to
  * the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.
  */
-package br.msf.commons.jpa.dao;
+package br.ojimarcius.commons.jpa.dao;
 
-import br.msf.commons.jpa.Entity;
+import br.ojimarcius.commons.jpa.Entity;
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
 import javax.persistence.EntityExistsException;

@@ -16,10 +16,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301 USA
  */
-package br.msf.commons.text;
+package br.ojimarcius.commons.text;
 
 import br.ojimarcius.commons.text.NumberSpeller;
-import br.msf.commons.BaseTest;
+import br.ojimarcius.commons.BaseTest;
 import br.ojimarcius.commons.util.LocaleUtils;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;

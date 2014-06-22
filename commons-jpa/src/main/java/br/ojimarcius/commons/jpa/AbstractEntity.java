@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301  USA
  */
-package br.msf.commons.jpa;
+package br.ojimarcius.commons.jpa;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;

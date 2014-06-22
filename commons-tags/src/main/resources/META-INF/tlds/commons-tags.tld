@@ -9,13 +9,13 @@
 
     <tag>
         <name>url</name>
-        <tag-class>br.msf.commons.tags.core.UrlTag</tag-class>
+        <tag-class>br.ojimarcius.commons.tags.core.UrlTag</tag-class>
         <body-content>scriptless</body-content>
     </tag>
 
     <tag>
         <name>icon</name>
-        <tag-class>br.msf.commons.tags.core.IconTag</tag-class>
+        <tag-class>br.ojimarcius.commons.tags.core.IconTag</tag-class>
         <attribute>
             <name>iconSize</name>
             <required>false</required>
@@ -27,7 +27,7 @@
 
     <tag>
         <name>idGenerator</name>
-        <tag-class>br.msf.commons.tags.core.IdGeneratorTag</tag-class>
+        <tag-class>br.ojimarcius.commons.tags.core.IdGeneratorTag</tag-class>
         <attribute>
             <name>defaultValue</name>
             <required>false</required>
@@ -51,12 +51,12 @@
 
     <tag>
         <name>formatPeriod</name>
-        <tag-class>br.msf.commons.tags.format.FormatPeriodTag</tag-class>
+        <tag-class>br.ojimarcius.commons.tags.format.FormatPeriodTag</tag-class>
         <attribute>
             <name>value</name>
             <required>true</required>
             <rtexprvalue>true</rtexprvalue>
-            <type>br.msf.commons.lang.Period</type>
+            <type>br.ojimarcius.commons.lang.Period</type>
         </attribute>
         <attribute>
             <name>var</name>
@@ -93,7 +93,7 @@
 
     <tag>
         <name>formatDate</name>
-        <tag-class>br.msf.commons.tags.format.FormatDateTag</tag-class>
+        <tag-class>br.ojimarcius.commons.tags.format.FormatDateTag</tag-class>
         <attribute>
             <name>value</name>
             <required>true</required>
@@ -129,7 +129,7 @@
 
     <tag>
         <name>message</name>
-        <tag-class>br.msf.commons.tags.message.MessageTag</tag-class>
+        <tag-class>br.ojimarcius.commons.tags.message.MessageTag</tag-class>
         <attribute>
             <name>key</name>
             <required>true</required>
@@ -159,7 +159,7 @@
 
     <tag>
         <name>label</name>
-        <tag-class>br.msf.commons.tags.label.LabelTag</tag-class>
+        <tag-class>br.ojimarcius.commons.tags.label.LabelTag</tag-class>
         <attribute>
             <name>label</name>
             <description>The label text itself, or a property key to its value. This attribute is mandatory and cannot be blank.</description>
@@ -213,7 +213,7 @@
 
     <tag>
         <name>menu</name>
-        <tag-class>br.msf.commons.tags.menu.MenuTag</tag-class>
+        <tag-class>br.ojimarcius.commons.tags.menu.MenuTag</tag-class>
         <attribute>
             <name>id</name>
             <description>The menu's id.</description>
@@ -303,7 +303,7 @@
 
     <tag>
         <name>menuItem</name>
-        <tag-class>br.msf.commons.tags.menu.MenuItemTag</tag-class>
+        <tag-class>br.ojimarcius.commons.tags.menu.MenuItemTag</tag-class>
         <attribute>
             <name>id</name>
             <description>The menuitem's id. This attribute is optional.</description>
@@ -386,7 +386,7 @@
 
     <tag>
         <name>menuCustomCell</name>
-        <tag-class>br.msf.commons.tags.menu.MenuCustomCellTag</tag-class>
+        <tag-class>br.ojimarcius.commons.tags.menu.MenuCustomCellTag</tag-class>
         <attribute>
             <name>visible</name>
             <description>Indicates if this cell must be rendered. Defaults to "true", if not defined.</description>
@@ -399,7 +399,7 @@
 
     <tag>
         <name>pagetitle</name>
-        <tag-class>br.msf.commons.tags.pagetitle.PageTitleTag</tag-class>
+        <tag-class>br.ojimarcius.commons.tags.pagetitle.PageTitleTag</tag-class>
         <attribute>
             <name>id</name>
             <required>false</required>
@@ -455,7 +455,7 @@
     </tag>
     <tag>
         <name>breadcrumb</name>
-        <tag-class>br.msf.commons.tags.pagetitle.BreadcrumbTag</tag-class>
+        <tag-class>br.ojimarcius.commons.tags.pagetitle.BreadcrumbTag</tag-class>
         <attribute>
             <name>id</name>
             <required>false</required>
