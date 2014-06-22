@@ -18,8 +18,8 @@
  */
 package br.msf.commons.lang;
 
-import br.msf.commons.text.EnhancedStringBuilder;
-import br.msf.commons.text.EnhancedStringBuilder;
+import br.ojimarcius.commons.text.EnhancedStringBuilder;
+import br.ojimarcius.commons.text.EnhancedStringBuilder;
 import br.msf.commons.BaseTest;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;

@@ -18,9 +18,9 @@
  */
 package br.msf.commons.lang;
 
-import br.msf.commons.text.CharComparator;
+import br.ojimarcius.commons.text.CharComparator;
 import br.msf.commons.BaseTest;
-import br.msf.commons.constants.Constants;
+import br.ojimarcius.commons.constants.Constants;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 

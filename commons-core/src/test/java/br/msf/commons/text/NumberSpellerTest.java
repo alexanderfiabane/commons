@@ -18,8 +18,9 @@
  */
 package br.msf.commons.text;
 
+import br.ojimarcius.commons.text.NumberSpeller;
 import br.msf.commons.BaseTest;
-import br.msf.commons.util.LocaleUtils;
+import br.ojimarcius.commons.util.LocaleUtils;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 

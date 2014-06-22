@@ -18,8 +18,9 @@
  */
 package br.msf.commons.util;
 
+import br.ojimarcius.commons.util.CollectionUtils;
 import br.msf.commons.BaseTest;
-import br.msf.commons.constants.Constants;
+import br.ojimarcius.commons.constants.Constants;
 import java.util.Arrays;
 import java.util.Collection;
 import static org.junit.Assert.assertEquals;

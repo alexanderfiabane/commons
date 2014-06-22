@@ -18,9 +18,9 @@
  */
 package br.msf.commons;
 
-import br.msf.commons.text.EnhancedStringBuilder;
-import br.msf.commons.util.CharSequenceUtils;
-import br.msf.commons.util.NumberUtils;
+import br.ojimarcius.commons.text.EnhancedStringBuilder;
+import br.ojimarcius.commons.util.CharSequenceUtils;
+import br.ojimarcius.commons.util.NumberUtils;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
