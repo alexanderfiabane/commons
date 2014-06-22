@@ -18,8 +18,8 @@
  */
 package br.msf.commons.jpa.embeddable;
 
-import br.msf.commons.temporal.Period;
-import br.msf.commons.util.CalendarUtils;
+import br.ojimarcius.commons.temporal.Period;
+import br.ojimarcius.commons.util.CalendarUtils;
 import java.util.Calendar;
 import javax.persistence.Embeddable;
 

@@ -18,9 +18,9 @@
  */
 package br.msf.commons.jpa.embeddable;
 
-import br.msf.commons.io.Archive;
-import br.msf.commons.util.ArrayUtils;
-import br.msf.commons.util.IOUtils;
+import br.ojimarcius.commons.io.Archive;
+import br.ojimarcius.commons.util.ArrayUtils;
+import br.ojimarcius.commons.util.IOUtils;
 import java.util.Arrays;
 import javax.persistence.Embeddable;
 
