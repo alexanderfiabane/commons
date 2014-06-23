@@ -38,7 +38,7 @@ public abstract class AbstractEntity<ID extends Serializable & Comparable<ID>> i
      */
     @Id
     @Column(name = "ID")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private ID id;
 
     public AbstractEntity() {
